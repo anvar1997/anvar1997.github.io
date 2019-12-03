@@ -66,11 +66,11 @@ justify-content: center;
 .menu .nav a:hover{
     color:rgba(11, 58, 212, 0.986);
 }
-.section-a{
+.section-a1{
 margin: 2rem 0;   
 
 }
-.section-a .cont
+.section-a1 .cont
 {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -78,19 +78,19 @@ margin: 2rem 0;
     align-items: center;
     justify-content: center;
 }
-.section-a h1{
+.section-a1 h1{
     font-size: 3rem;
     text-align: center;
 }
-.section-a p{
+.section-a1 p{
    margin: 1rem 0;
    font-size: 20px;
    text-align: center;
 }
-.section-a img{
+.section-a1 img{
     border-radius: 20px;
 }
-.section-a .btn{
+.section-a1 .btn{
     display: grid;
 justify-content: center;
 background: rgb(65, 71, 71);
@@ -101,9 +101,10 @@ text-decoration: none;
 margin: auto;
 align-items: center;
 border-radius: 20px;
+
 animation: btn 7s infinite;
 }
-.section-a .btn:hover{
+.section-a1 .btn:hover{
     background: rgb(97, 97, 109);
 }
 .section-b{
@@ -245,14 +246,312 @@ grid-column: 1/2;
     grid-row: 5/5;
     grid-column: 1/2;
 }
+/*HOME*/
+/*section-a1*/
+@media(max-width:950px){
+    .section-a1 h1{
+        font-size: 2rem;
+        text-align: center;
+    }
+    .section-b{
+    
+        height: 500px;
+    
+    }
+    .section-c{
+        height: 250px;
+    }
+}
+@media(max-width:860px){
+    .section-a1{
+    margin: 1rem 0;   
+    
+    }
+  
+    .menu .logo{
+        font-size: 1.5rem;
+    }
+    li{
+        font-size: 1rem;
+    }
+    .section-a1 .cont
+    {
+        grid-gap:1rem;
+    }
+    .section-a1 h1{
+        font-size: 2rem;
+        text-align: center;
+    }
+    .section-a1 p{
+       margin: 0.5rem 0;
+       font-size: 17px;
+    }
+    .section-a1 .btn{ 
+    width: 100px;
+    height: 30px;
+   border-radius: 10px;
+    font-size: 10px;
+    animation: btn 7s infinite;
+    margin-top: 30px;
+    }
+    .section-b{
+        height: 500px;
+    }
+    .fon{
+      font-size: 1.5rem;
+    }
+    .fon h1{
+      padding-top:1rem;
+      margin: 1rem 0;
+    }
+    .section-b .fon .cont{
+        grid-gap: 1rem;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        color: aliceblue;
+       
+        font-size: 17px;
+        animation: transform 7s infinite;
+    }
+    .section-b .fon .cont .box img{
+    border-radius: 7px;
+    
+    }
+    .section-c{
+        height: 230px;
+    }
+    .section-c .form{
+    padding-top: 0.7rem;
+    }
+    .section-c .form .insta h1{
+        font-size: 2rem;
+    }
+    
+    .section-c .form .insta img{
+        width: 100px;
+        height: 100px;
+        border-radius: 15px;
+    }
+}
+
+@media(max-width:700px){
+    .section-a1{
+        margin: 0.5rem 0;   
+        
+        }
+        .section-a1 .cont
+        {
+            grid-gap:0.5rem;
+        }
+        .section-a1 h1{
+            font-size: 1.5rem;
+            text-align: center;
+        }
+        .section-a1 p{
+           margin: 0.5rem 0;
+           font-size: 14px;
+        }
+        .section-a1 .btn{ 
+        width: 100px;
+        height: 30px;
+       border-radius: 10px;
+        font-size: 10px;
+        animation: btn 7s infinite;
+        margin-top: 20px;
+        }
+        
+@keyframes btn{
+    60%{
+        transform: scale(1);
+    }
+    80%{
+        transform: scale(1.2);
+    }
+}
+.section-b{
+    height: 400px;
+}
+.fon{
+  font-size: 1rem;
+}
+.fon h1{
+  padding-top:1rem;
+  margin: 0.5rem 0;
+}
+.section-b .fon .cont{
+    grid-gap: 0.5rem;
+   font-size: 15px;
+    animation: transform 7s infinite;
+}
+.section-b .fon .cont .box img{
+border-radius: 5px;
+
+}
+.section-c{
+    height: 200px;
+}
+.section-c .form{
+    padding-top: 0.5rem;
+    }
+
+    .section-c .form .insta h1{
+        font-size: 1.5rem;
+    }
+    
+    .section-c .form .insta img{
+        width: 80px;
+        height: 80px;
+        border-radius: 15px;
+    }
+}
+@media(max-width:610px){
+    .section-a1 p{
+        margin-top:0.3rem;
+        font-size: 12px;
+     }
+}
+@media(max-width:520px){
+       .section-a1 h1{
+            font-size: 1rem;
+            text-align: center;
+        }
+        .section-a1 p{
+           margin-top:0.1rem;
+           font-size: 9px;
+        }
+        .section-a1 .btn{ 
+        width: 90px;
+        height: 25px;
+       border-radius: 7px;
+        font-size: 8px;
+        animation: btn 7s infinite;
+        margin-top: 5px;
+        }
+        .section-b{
+            height: 300px;
+        }
+        .fon{
+          font-size: 0.7rem;
+        }
+        .fon h1{
+          padding-top:0.5rem;
+          margin: 1rem 0;
+        }
+        .section-b .fon .cont{
+            grid-gap: 0.5rem;
+           font-size: 10px;
+            animation: transform 7s infinite;
+        }
+        .section-b .fon .cont .box img{
+        border-radius: 5px;
+        
+        }
+        .section-c{
+            height: 150px;
+        }
+        .section-c .form{
+            padding-top: 0.3rem;
+            }
+            .section-c .form .insta h1{
+                font-size: 1rem;
+            }
+            
+            .section-c .form .insta img{
+                width: 60px;
+                height: 60px;
+                border-radius: 12px;
+            }
+}
+@media(max-width:400px){
+    .section-a1 h1{
+        font-size: 0.5rem;
+        text-align: center;
+    }
+    .section-a1 p{
+       
+       font-size: 7px;
+    }
+    .section-a1 .btn{ 
+    width: 70px;
+    height: 20px;
+   border-radius: 5px;
+    font-size: 4px;
+    animation: btn 7s infinite;
+   
+    }
+    .section-b{
+        height: 200px;
+    }
+    .fon{
+      font-size: 0.7rem;
+    }
+    .fon h1{
+        font-size: 1rem;
+      padding-top:0.5rem;
+      margin: 0.5rem 0;
+    }
+    .section-b .fon .cont{
+        grid-gap: 0.5rem;
+       font-size: 8px;
+        animation: transform 7s infinite;
+    }
+    .section-b .fon .cont .box img{
+    border-radius: 5px;
+    
+    }
+    .section-c{
+        height: 100px;
+    }
+    .section-c .form{
+        padding-top: 0.2rem;
+        }
+        .section-c .form .insta h1{
+            font-size: 0.7rem;
+        }
+        
+        .section-c .form .insta img{
+            width: 50px;
+            height: 50px;
+            border-radius: 10px;
+        }
+}
+/*section-b*/
+/*/portfolio*/
+@media(max-width:860px){
+    .section-a .cont1{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        grid-auto-rows: minmax(80px, auto);
+        justify-items:stretch;
+        align-items: stretch;}
+        .section-a .cont1 .pr{
+            background: rgb(177, 176, 175);
+           margin: 3px;
+           line-height:normal;
+        }
+        .section-a .cont1 .pr p{
+            font-size: 8px;
+            color: rgb(66, 92, 85);
+            }
+    
+}
 @media(max-width:760px){
     .section-a .cont1{
         display: grid;
         grid-template-columns: repeat(4,1fr);
         grid-auto-rows: minmax(70px, auto);
         justify-items:stretch;
-        align-items: stretch;
-    
+        align-items: stretch;}
+        .section-a .cont1 .pr{
+            background: rgb(177, 176, 175);
+           margin: 2px;
+           line-height:normal;
+        }
+        .section-a .cont1 .pr p{
+            font-size: 7px;
+            color: rgb(66, 92, 85);
+            }
 }
 @media(max-width:660px){
     .section-a .cont1{
@@ -260,6 +559,15 @@ grid-column: 1/2;
         grid-template-columns: repeat(4,1fr);
         grid-auto-rows: minmax(50px, auto);
         justify-items:stretch;
-        align-items: stretch;
+        align-items: stretch;}
+        .section-a .cont1 .pr{
+            background: rgb(177, 176, 175);
+           margin: 1px;
+           line-height:normal;
+        }
+        .section-a .cont1 .pr p{
+            font-size: 6px;
+            color: rgb(66, 92, 85);
+            }
     
 }
